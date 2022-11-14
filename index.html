@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url('images/bg.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            line-height: 12px;
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 80px;
+        }
+
+        .mid {
+            display: block;
+
+            width: 33%;
+            margin: 20px auto;
+        }
+
+        .right {
+            display: inline-block;
+
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .navbar {}
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+            padding: 10px 15px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        /* .btn {
+            padding: 8px;
+        } */
+
+        button {
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        main {
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 35%;
+            position: relative;
+            left: 50px;
+            top: 90px;
+            text-align: center;
+            align-items: center;
+        }
+
+        input {
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 3px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/logo.png" alt="logo">
+            <div> Kirat Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <main>
+        <h3>Join The best Gym of Anand Now</h3>
+        <div>
+            <form action="none.com">
+                <input type="text" placeholder="Enter Your Name"><input type="text" placeholder="Enter Your Age"><input
+                    type="text" placeholder="Enter Your Gender"><input type="text"
+                    placeholder="Enter Your Locality"><input type="text" placeholder="Enter Your Email id"><input
+                    type="text" placeholder="Enter Your Phone number">
+                <button>Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
+<!--  -->
